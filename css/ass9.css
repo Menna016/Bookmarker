@@ -1,0 +1,139 @@
+body {
+    background-color:#edfde9;
+}
+/*title*/
+.tittle {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #906387;
+    isolation: isolate;
+}
+
+.bmBody {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #86e57c;
+}
+
+.bmBody h2 {
+    background-image: linear-gradient(to right, #4c9173, #7dd87d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+}
+/*submit btn*/
+.btn {
+    border: #de6e50;
+    border-radius: 10px;
+    background-color: #e95c35;
+    color: #edfeeb;
+    padding: 5px 48px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #bb4120;
+    border: black;
+    color: #edfeeb;
+}
+/*table btns*/
+tbody tr td button {
+    border: 1px;
+    #9eb23b;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #9eb23b;
+    color: #edfeeb;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+}
+
+tbody tr td button:hover {
+    border: pink;
+    background-color: rgb(42, 169, 61);
+}
+
+tbody tr td .delete {
+    background-color: #eb1d36;
+    border: #eb1d36;
+}
+
+tbody tr td .delete:hover {
+    border: black;
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+::selection {
+    background-color: rgb(255, 184, 227);
+    color: rgb(236, 40, 92);
+}
+
+
+/* popup */
+
+.popup {
+    width: 400px;
+    background:#f8d0b0;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    padding: 0 30px 30px;
+    color: #3b3b3b;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    box-shadow: 0 2px 5px rgba(226, 34, 149, 0.5);
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.popup p{
+    font-weight: 800;
+}
+.popup button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 7px 0;
+    background-color:#da6969;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
